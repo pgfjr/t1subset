@@ -1,0 +1,31 @@
+T1Subset v. 1.0
+
+About
+=====
+
+T1Subset creates a subset of a PostScript Type 1 font. It is a header-only library as the complete functionalities are done in the header.
+
+Note that only the unused glyphs are removed; subsetting of subroutines is not currently supported, although this may change in a future version.
+
+In addition, only the following built-in encodings are currently supported: StandardEncoding, WinAnsiEncoding, and MacRomanEncoding. Other encodings may be supported in a future version.
+
+
+Compilation
+===========
+
+Just include the header. See the test file for the usage.
+
+
+Copying
+=======
+
+This program is released under the GNU General Public License
+version 3 or newer. See the COPYING file included with this distribution or <http://www.gnu.org/licenses/>.
+
+	Copyright (C) 2020 Peter Frane Jr.
+
+
+Contact
+=======
+
+Please send any inquries to pfranejr@hotmail.com
