@@ -7,7 +7,7 @@ T1Subset creates a subset of a PostScript Type 1 font. It is a header-only libra
 
 Note that only the unused glyphs are removed; subsetting of subroutines is not currently supported, although this may change in a future version.
 
-In addition, only the following built-in encodings are currently supported: StandardEncoding, WinAnsiEncoding, and MacRomanEncoding. Other encodings may be supported in a future version.
+In addition to the font's provided encoding, only the following 'built-in' encodings are currently supported: StandardEncoding, WinAnsiEncoding, and MacRomanEncoding.
 
 
 Compilation
